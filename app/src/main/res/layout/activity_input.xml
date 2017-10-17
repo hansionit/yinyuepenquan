@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/mIp"
+        android:text="192.168.0.34"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ip" />
+
+    <EditText
+        android:id="@+id/mPort"
+        android:text="2002"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="视频端口号" />
+
+    <Button
+        android:id="@+id/mGoA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="确定" />
+
+</LinearLayout>
